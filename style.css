@@ -1063,3 +1063,58 @@ footer a {
 .menu-grid > div b {
   text-align: center;
 }
+
+/* Hamburger navigation */
+.menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: var(--aubergine, #47213D);
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+    .site-header {
+        position: relative;
+    }
+
+    .main-nav {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 220px;
+        padding: 20px;
+        background: #fffaf5;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+    }
+}
