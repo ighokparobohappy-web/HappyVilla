@@ -118,7 +118,7 @@ a {
 .hero-image {
   position: absolute;
   inset: 0;
-  background-image: url(images/main-background-image.avif);
+  background-image: url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1800&q=85");
   background-size: cover;
   background-position: center;
 }
@@ -324,13 +324,13 @@ h2 span {
   height: 370px;
 }
 .room-a {
-  background-image: url(images/hotelroom1.jfif);
+  background-image: url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80");
 }
 .room-b {
-  background-image: url(images/hotelroom2.jfif);
+  background-image: url("https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80");
 }
 .room-c {
-  background-image: url(images/hotelroom3.jfif);
+  background-image: url("https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80");
 }
 .room-info {
   padding: 23px;
@@ -368,7 +368,8 @@ h2 span {
 .food-photo {
   position: absolute;
   inset: 0;
-  background: url(images/food-background.jfif) center/cover;
+  background: url(images/food-background.jfif)
+    center/cover;
 }
 .food-overlay {
   position: absolute;
@@ -505,19 +506,19 @@ footer a {
   font-size: clamp(50px, 6vw, 82px);
 }
 .about-hero {
-  background-image: url(images/reception.jfif);
-}
+  background-image: url("https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1800&q=85");
+} 
 .rooms-hero {
-  background-image: url("images/roomheroimg.jfif");
+  background-image: url("https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1800&q=85");
 }
 .dining-hero {
   background-image: url(images/dining-background.jfif);
 }
 .gallery-hero {
-  background-image: url(images/main-background-image.avif);
+  background-image: url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1800&q=85");
 }
 .contact-hero {
-  background-image: url(images/contactpage.jfif);
+  background-image: url("https://images.unsplash.com/photo-1568495248636-6432b97bd949?auto=format&fit=crop&w=1800&q=85");
 }
 .story {
   display: grid;
@@ -607,7 +608,7 @@ footer a {
 }
 .food-detail-photo {
   height: 560px;
-  background: url(images/food-background2.avif)
+  background: url("https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1100&q=85")
     center/cover;
 }
 .menu-section {
@@ -676,27 +677,27 @@ footer a {
 .g1 {
   grid-column: span 7;
   grid-row: span 2;
-  background-image: url(images/main-background-image.avif);
+  background-image: url("https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1300&q=85");
 }
 .g2 {
   grid-column: span 5;
-  background-image: url(images/hotelroom2.jfif
+  background-image: url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85");
 }
 .g3 {
   grid-column: span 5;
-  background-image: url(images/dining-room.jfif);
+  background-image: url("https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1000&q=85");
 }
 .g4 {
   grid-column: span 5;
-  background-image: url(images/hoteleveningimg.avif);
+  background-image: url("https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1000&q=85");
 }
 .g5 {
   grid-column: span 4;
-  background-image: url(images/nigerian\ food.jfif);
+  background-image: url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85");
 }
 .g6 {
   grid-column: span 3;
-  background-image: url(images/villaview.jfif);
+  background-image: url("https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1000&q=85");
 }
 .contact-section {
   display: grid;
@@ -1011,6 +1012,7 @@ footer a {
   transition: 0.25s;
 }
 
+
 .room-price {
   font-family: "Fraunces", Georgia, serif;
   font-size: 26px;
@@ -1028,10 +1030,10 @@ footer a {
 .menu-grid b {
   font-size: 18px;
 }
-.menu-grid > div {
+.menu-grid > div{
   overflow: hidden;
 }
-.menu-grid > div img {
+.menu-grid > div img{
   display: block;
   width: 60%;
   height: 240px;
@@ -1041,7 +1043,7 @@ footer a {
 }
 
 @media (max-width: 60px) {
-  .menu-grid > div img {
+  .menu-grid > div img{
     height: 160px;
   }
 }
@@ -1049,16 +1051,16 @@ footer a {
   text-align: center;
 }
 .menu-grid > div img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .menu-grid div span {
   display: block;
   text-align: center;
-}
-.menu-grid > div h3,
+} 
+ .menu-grid > div h3,
 .menu-grid > div p,
 .menu-grid > div b {
   text-align: center;
